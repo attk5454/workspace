@@ -19,7 +19,7 @@
 			インターネット使い放題です。<br />
 		</dd>
 	</dl>
-	<p><a href="index.html">インデックスに戻る</a></p>
+	<p><a href="index.php">インデックスに戻る</a></p>
 </body>
 
 </html>

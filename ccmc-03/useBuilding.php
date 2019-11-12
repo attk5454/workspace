@@ -1,10 +1,11 @@
 <?php
 require_once("class/Building.php");
 $kasumigaseki = new Building("霞が関ビル",147);
-echo "<pre>";
+$sunshine60 = new Building("サンシャイン60",240);
+/**echo "<pre>";
 var_dump($kasumigaseki);
 echo "</pre>";
-exit(0)
+exit(0)*/
 ?>
 <!DOCTYPE html>
 <html lang="ja">
@@ -19,14 +20,14 @@ exit(0)
 <body>
 	<h1>Buildingクラスを利用する</h1>
 	<dl>
-		<dt>霞が関ビル</dt>
-		<dd>霞が関ビルの高さは147mです。</dd>
+		<dt><?= $kasumigaseki->getName() ?></dt>
+		<dd><?= $kasumigaseki->getProfile() ?></dd>
 	</dl>
 	<dl>
-		<dt>サンシャイン60</dt>
-		<dd>サンシャイン60の高さは240mです。</dd>
+		<dt><?= $sunshine60->getName() ?></dt>
+		<dd><?= $sunshine60->getProfile() ?></dd>
 	</dl>
-	<p><a href="index.html">インデックスに戻る</a></p>
+	<p><a href="index.php">インデックスに戻る</a></p>
 </body>
 
 </html>

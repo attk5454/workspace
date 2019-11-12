@@ -26,6 +26,7 @@ class Building {
     
     function getProfile(){
         $profile = "{$this->name}の高さは{$this->height}mです。";
+        return $profile;
     }
 }
 ?>

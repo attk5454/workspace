@@ -7,7 +7,7 @@ class Tower {
     function __construct($name, $height, $year){
         $this->name = $name;
         $this->height = $height;
-        $his->year = $year;
+        $this->year = $year;
     }
     
     function setName($name){
@@ -36,6 +36,7 @@ class Tower {
     
     function getProfile(){
         $profile = "{$this->name}の高さは{$this->height}mで、{$this->year}年に開業しました。";
+        return $profile;
     }
 }
 ?>
