@@ -1,3 +1,11 @@
+<?php
+session_start();
+if (isset($_SESSION["id"])){
+    $_SESSION = [];
+    session_destroy();
+}
+print_r($_SESSION);
+?>
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -9,7 +17,7 @@
 </head>
 <body>
 	<h1>簡単なユーザ認証</h1>
-	<p>ようこそ、usr01さん</p>
-	<p><a href="logout.html">ログアウトする</a></p>
+	<p>ログアウトしました。</p>
+	<p><a href="entry.php">ログインページへ</a></p>
 </body>
 </html>

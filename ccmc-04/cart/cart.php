@@ -40,17 +40,9 @@ $_SESSION["cart"] = $cart;
 			<th>価格</th>
 			<th></th>
 		</tr>
-				<tr>
+		<tr>
 			<td>アコースティックギター</td>
 			<td>200,000円</td>
-		</tr>
-				<tr>
-			<td>アコースティックギター</td>
-			<td>200,000円</td>
-		</tr>
-				<tr>
-			<td>ローズピアノ</td>
-			<td>280,000円</td>
 		</tr>
 			</table>
 </body>
